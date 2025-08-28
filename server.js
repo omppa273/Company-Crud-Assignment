@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const { connectDB } = require('./src/config/database');
 const { sequelize } = require('./src/models');
-const { seedSkills } = require('./src/utils/seedSkills');
+const { seedSkills } = require('./src/utils/SeedSkills');
 const apiRoutes = require('./src/routes');
 
 const app = express();
