@@ -1,8 +1,8 @@
 // src/models/index.js
 const { sequelize } = require('../config/database');
-const Company = require('./Company');
-const Employee = require('./Employee');
-const Skill = require('./Skill');
+const Company = require('./company');
+const Employee = require('./employee');
+const Skill = require('./skill');
 const EmployeeSkill = require('./EmployeeSkill');
 const Education = require('./Education');
 
